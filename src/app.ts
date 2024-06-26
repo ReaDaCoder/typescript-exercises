@@ -72,18 +72,26 @@ class Person {
  }
 
  function add(num1:number, num2:number){
-    return getSum();
+    let a = num1.valueOf;
+    let b =num2.valueOf
+    let result = a+b;
  }
 
  function difference(num1:number, num2:number){
-    return getDifference();
+    let a = num1.valueOf;
+    let b =num2.valueOf
+    let result = a-b;
  }
 
  function multiplication(num1:number, num2:number){
-    return getMultiplication();
+    let a = num1.valueOf;
+    let b =num2.valueOf
+    let result = a*b;
  }
 
  function division(num1:number, num2:number){
-    return getDivision();
+    let a = num1.valueOf;
+    let b =num2.valueOf
+    let result = a/b;
  }
 
